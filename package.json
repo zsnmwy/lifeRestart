@@ -3,7 +3,7 @@
     "type": "module",
     "bin": "repl/index.js",
     "scripts": {
-        "tcbBuild": "npm run build && mkdir dist && cp -r data dist/ && cp -r public dist/ && cp -r view dist/ && cp index.html dist/",
+        "tcbBuild": "npm run build && mkdir dist && cp -r data dist/ && cp -r lib dist/ && cp -r public dist/ && cp -r view dist/ && cp index.html dist/",
         "test": "node test",
         "xlsxTransform": "node utils/xlsxTransform.js data",
         "dev": "webpack serve --open /view/index.html",
